@@ -1,0 +1,94 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header {
+width: 100%;
+background-color: black;
+margin-bottom: 5%;
+}
+nav {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.trailerflix { 
+font-size: 60px;
+color: red;
+text-align: center;
+}
+.linknav {
+color: red;
+}
+.main {
+    width: 100%;
+    display: flex;
+}
+#container {
+    margin: 5%;
+    width:70%;
+    height: 450px;
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    border: solid white;
+    box-shadow: rgba(219, 208, 208, 0.3) 0px 19px 38px, rgba(236, 230, 230, 0.22) 0px 15px 12px;
+}
+.texto {
+    margin-top: 3%;
+    text-align: start;
+    margin-left: 2%;
+    }
+    .portada {
+        display: flex;
+        width: 70%;
+    }
+    .imgportada {
+        margin-left: 5%;
+        margin-top: 5%;
+        display: flex;
+        width: 200px;
+        height: 400px; 
+    }
+.h3 {
+    color:rgb(243, 13, 13);
+}
+.sub { color: white;
+    margin: 1%;
+}
+
+@media (max-width:500px ){
+    .trailerflix {
+        font-size: 20px;
+    }
+    #container {
+        flex-direction: column;
+        height: 500px;
+        width: 70%;
+    }
+    .portada {
+        display: flex;
+        justify-content: center;
+        width:70%;
+    }
+    .imgportada {
+        margin-top: 2%;
+        margin-left: 15%;
+        width: 200px;
+        height:200px;
+}
+    .texto {
+        width: 70%;
+        height: 500px;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .texto {
+        font-size: 10px;
+    }
+}
